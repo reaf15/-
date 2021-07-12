@@ -1,0 +1,29 @@
+  #grid{
+    border:none solid none;
+    display: grid;
+    text-align: center;
+    padding-top: 0px;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  div{
+    border:none solid 5px;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  .saw {
+    color:gray;
+  }
+  #active {
+    color:red;
+  }
+  h1 {
+    border-bottom:1px solid gray;
+    padding-bottom: 10px;
+    margin:none
+    display:block;
+    width:100%;
+    font-size:35px;
+    text-align: center;
+  }
