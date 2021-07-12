@@ -1,2 +1,2 @@
-# Con Manager
+# Architectural Manager
 안녕하세요.
