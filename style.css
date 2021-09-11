@@ -1,4 +1,4 @@
-  #grid{
+  /* #grid{
     border:none solid none;
     display: grid;
     text-align: center;
@@ -41,5 +41,36 @@
   th, td {
     border: 1px solid gray;
     height: 200px;
-  }
+  } */
   
+.container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+  border-bottom:1px solid gray;
+  padding-left:20px;
+  
+}
+footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+}
+.content nav{
+  flex-shrink: 0;
+  border-right:1px solid gray;
+} 
+
+nav {
+  display:flex;
+  flex-basis: auto;
+  flex-shrink: 1;
+}
+main{
+    padding:10px;
+}
