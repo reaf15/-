@@ -49,7 +49,8 @@
     text-align: center;
     flex-direction: column;
     border:red solid 5px;
-}
+}   
+
 
 header{
   border-bottom:1px solid gray;
