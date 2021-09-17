@@ -45,32 +45,37 @@
   
 .container{
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
+    border:red solid 5px;
 }
+
 header{
   border-bottom:1px solid gray;
-  padding-left:20px;
-  
+  padding-left:0px;
+  border:1px solid none;
 }
-footer{
-    border-top:1px solid gray;
-    padding:20px;
-    text-align: center;
-}
-.content{
-    display:flex;
-    flex-direction: column;
-}
+
 .content nav{
-  flex-shrink: 0;
-  border-right:1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  border:1px solid none;
+  padding: 10px;
 } 
 
-nav {
-  display:flex;
-  flex-basis: auto;
-  flex-shrink: 1;
-}
 main{
-    padding:10px;
+  border:1px #8692fc solid;
+  padding:30px;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+
+footer{
+  border-top:1px solid gray;
+  padding:20px;
+  text-align: center;
 }
