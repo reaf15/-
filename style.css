@@ -17,14 +17,18 @@ h1 {
   margin: 8px;
 }
 
-nav{
-  display: grid;
+nav{{
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 400px; */
+  align-content: space-between;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   /* display: flex;
   justify-content: space-between; */
   border:1px solid none;
   padding: 8px 30px;
-  background-color: #edeefa
+  background-color: #edeefa */
 } 
 
 li {
