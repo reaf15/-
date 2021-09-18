@@ -18,10 +18,10 @@ h1 {
 }
 
 nav{
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr ; */
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  /* display: flex;
+  justify-content: space-between; */
   border:1px solid none;
   padding: 8px 30px;
   background-color: #edeefa
