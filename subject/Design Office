@@ -3,7 +3,7 @@
   <head>
     <style>
       #columns{
-        column-width:350px;
+        column-width:50px;
         column-gap: 15px;
       }
       #columns figure{

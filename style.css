@@ -1,41 +1,51 @@
+body {
+  margin: 0;
+}
 .container{
     display: flex;
     text-align: center;
     flex-direction: column;
-    border:red solid none;
+    border:0px solid none;
     height: 100vh;
 }   
-
+a {
+  color:black;
+  text-decoration: none;
+}
 header{
   border-bottom:1px solid gray;
-  padding-left:0px;
-  border:1px solid none;
+  text-align: center;  
   background-color: rgb(248, 236, 219);
 }
-
 h1 {
   margin: 8px;
 }
-
-nav{{
+.content {
   display: flex;
-  flex-wrap: wrap;
+}
+.content nav{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
   /* height: 400px; */
-  align-content: space-between;
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   /* display: flex;
   justify-content: space-between; */
-  border:1px solid none;
+  border-right:1px solid gray;
   padding: 8px 30px;
-  background-color: #edeefa */
+  background-color: #fdd2d2;
+  margin: 0;
 } 
-
+.content main{
+  padding:30px;
+}
 li {
-  padding: 5px 50px;
-  width:100%
+  flex-basis: 50px;
+  border: 1px solid blue;
+  padding: 10px;
+  width:100%;
   list-style: none;
-  border: none solid #000000;
 }
 
 li:hover {
@@ -43,43 +53,8 @@ li:hover {
   border-radius: 4px;
 }
 
-main{
-  border:none #ffffff solid;
-  padding:30px;
-}
-
-a {
-  color:black;
-  text-decoration: none;
-}
-
-.content {
-  flex-grow: 1 ;
-}
-
 footer{
   border-top:1px solid gray;
   padding:20px;
   text-align: center;
-}
-
-#columns{
-  column-width:350px;
-  column-gap: 15px;
-}
-#columns figure{
-  display: inline-block;
-  border:1px solid rgba(0,0,0,0.2);
-  margin:0;
-  margin-bottom: 15px;
-  padding:10px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
-}
-#columns figure img{
-  width:100%;
-}
-#columns figure figcaption{
-  border-top:1px solid rgba(0,0,0,0.2);
-  padding:10px;
-  margin-top:11px;
 }
