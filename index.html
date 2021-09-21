@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
+
 <head>
   <title>건축설계 매니저</title>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <header>
@@ -14,26 +16,26 @@
     <section class="content">
       <nav>
         <li><a onclick="
-          fetch('subject/Design Office').then(function(response){
-            response.text().then(function(text){
-              document.querySelector('main').innerHTML = text;
-            })
-          });
-          ">Design Office</a></li>
+        fetch('subject/Design Office').then(function(response){
+          response.text().then(function(text){
+            document.querySelector('main').innerHTML = text;
+          })
+        });
+        ">Design Office</a></li>
         <li><a onclick="
-          fetch('subject/Contest').then(function(response){
-            response.text().then(function(text){
-              document.querySelector('main').innerHTML = text;
-            })
-          });
-          ">Contest</a></li>
+        fetch('subject/Contest').then(function(response){
+          response.text().then(function(text){
+            document.querySelector('main').innerHTML = text;
+          })
+        });
+        ">Contest</a></li>
         <li><a onclick="
-          fetch('subject/Work').then(function(response){
-            response.text().then(function(text){
-              document.querySelector('main').innerHTML = text;
-            })
-          });
-          ">Work</a></li>
+        fetch('subject/Work').then(function(response){
+          response.text().then(function(text){
+            document.querySelector('main').innerHTML = text;
+          })
+        });
+        ">Work</a></li>
       </nav>
       <main>
         건축설계 매니저에 오신걸 환영합니다.
@@ -44,4 +46,5 @@
     </footer>
   </div>
 </body>
+
 </html>
